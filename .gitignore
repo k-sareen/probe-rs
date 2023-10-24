@@ -1,3 +1,5 @@
 /doc/
 /target/
 /Cargo.lock
+target.tmp
+cargo.out

@@ -80,6 +80,9 @@
 
 #![no_std]
 
+#[cfg(any(test, feature = "use_std"))]
+extern crate std;
+
 mod platform;
 
 /// Define a static probe point.

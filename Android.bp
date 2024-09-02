@@ -11,6 +11,10 @@ rust_library {
     cargo_pkg_version: "0.5.1",
     srcs: ["src/lib.rs"],
     edition: "2021",
+    features: [
+        "default",
+        "use_std",
+    ],
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
